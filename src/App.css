@@ -1,0 +1,152 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #DDEDFF;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #333;
+}
+
+/* Navbar styles */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1F2C3B;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Recipe grid styles */
+.outer-grid {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.recipe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.recipe-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.recipe-card h2 {
+  margin: 12px 0 8px;
+}
+
+.recipe-card ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.recipe-card ul li {
+  margin-bottom: 4px;
+}
+
+.recipe-card button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.recipe-card button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Form styles */
+form {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+form h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+
+.foot{
+  background-color: rgb(54, 49, 49);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 70px;
+}
